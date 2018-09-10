@@ -1,1 +1,167 @@
 /* Insert your styles here */
+html, body{
+  background-color: #fffde7;
+  padding: 20px;
+  border: 30px;
+  margin: 10px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif; 
+}
+
+div.banner{
+  background-color: white;
+  text-align: center;
+  word-spacing: 30px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 150%;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.no-bullet{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li a.nav {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a.nav:hover, li a.nav:active{
+  background-color: #111;
+}
+
+nav{
+  position: sticky;
+  top: 0;
+}
+
+nav li{
+  display: inline-block;
+}
+
+a.link:link, a.link:visited{
+  color: blue;
+}
+
+a.link:hover, a.link:active{
+  color: skyblue;
+}
+
+p{
+  padding: 35px;
+  margin: auto;
+}
+
+main{
+  padding: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
+  border: 0.5px solid;
+  margin: 30px;
+}
+
+img.main{
+  display: block;
+  margin: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 60%;
+}
+
+span.note{
+  font-style: italic;
+}
+
+div.gallery{
+  margin: auto;
+  border: 0.5px solid;
+  display: inline-block;
+}
+
+div.gallery:hover{
+  border: 1px solid;
+}
+
+div.gallery img{
+  width: 300px;
+  height: 200px;
+}
+
+div.caption{
+  text-align: center;
+}
+
+div.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form.login{
+  text-align: center;
+  font-size: 15px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+form.login input{
+  width: 20%;
+  height: auto;
+  box-sizing: border-box;
+  margin-bottom: 1.5em;
+}
+
+input.submit{
+  margin-top: 10px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  padding: 1%;
+  font-weight: bold;
+}
+
+input.submit:hover{
+  background-color: #45a049;
+}
+
+form.product fieldset{
+  background-color: #FFE0B2; 
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  line-height: 2.5em;
+  width: 40%;
+}
+
+form.product fieldset legend{
+  font-size: 150%;
+}
+
+span.field{
+  margin-left: 25px;
+}
+
+input.qty{
+  text-align: center;
+  width: 10%;
+}
+
+input.buy{
+  position: relative;
+  float: right;
+  margin-right: 40px;
+  width: 15%;
+  height: auto;
+  border-radius: 1em;
+}
+
+input[type=number]::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+}
