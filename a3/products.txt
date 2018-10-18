@@ -1,1 +1,7 @@
 ID	OID	Title	Description	Option	Price
+BM1	CK	Banh Mi	Bread roll with carrot, corriande, pate, mayonaise, chillis and chicken	Chicken	8.50
+BM1	TF	Banh Mi	Bread roll with carrot, corriande, pate, mayonaise, chillis and Tofu	Tofu	8.50   
+PR1	PR	Paper Roll	Rice paper roll with lettuce, mint, cucumber, noodle and prawn	Prawn	3.00
+PR1	SA	Paper Roll	Rice paper roll with lettuce, mint, cucumber, noodle and salmon	Salmon	3.00
+DR1	WA	Drink	Refrigerated water bottle (300ml)	Water	2.00
+DR1	CO	Drink	Refrigerated coke bottle (300ml)	Coke	2.00

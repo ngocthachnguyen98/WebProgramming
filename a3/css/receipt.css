@@ -1,0 +1,85 @@
+div.banner{
+    text-align: right;
+    color: brown;
+    padding-right: 30px;
+    word-spacing: 30px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 250%;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+div.text{
+    position: relative;
+    left: 250px;
+    top: 80px;
+}
+div.img{
+    position: relative;
+    left: 100px;
+}
+
+
+img.logo{
+    height: 100px;
+}
+
+div.ty{
+    text-align: center;
+    color: brown;
+    word-spacing: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 100%;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+div.total{
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 200px;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    position: relative;
+    font-size: 30px;
+    color: dodgerblue;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table{
+    margin: auto;
+}
+th, td{
+    padding: 15px;
+}
+
+td{
+    text-align: left;
+}
+
+div.stats div{
+    display: inline-block;
+    padding: 30px;
+}
+
+
+div.number{
+    position: relative;
+    bottom: 19px;
+    left: 25%;
+}
+
+@page {
+    size: A4;
+    margin: 0;
+}
